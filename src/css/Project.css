@@ -20,10 +20,22 @@
     padding:50px;
 }
 
+*/
+
 .projectPage {
-    text-align: center;
-}*/
+    justify-content: space-between;
+    width: 80%;
+}
 
 .projectCard {
+  border: 1px dashed black;
   margin: 15px;
+  padding: 10px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.projectCard h3 {
+  font-size:20px;
 }

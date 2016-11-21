@@ -6,6 +6,7 @@ import './css/Project.css';
 import $ from 'jquery';
 
 
+
 // ProjectPage component
 var ProjectPage = React.createClass({
 	// Get initial state: "projects" as empty array
@@ -30,11 +31,14 @@ var ProjectPage = React.createClass({
 				</div>
 				<div>
 					{this.state.projects.map(function(project, i){
-						return (<Project key={'project-' + i}
-							title={project.title}
-							link={project.link}
-							description={project.description}
-						/>)
+						if (i < 4) {
+							return (<Project key={'project-' + i}
+								title={project.title}
+								link={project.link}
+								description={project.description}
+								img={project.img}
+							/>)
+						}
 					})}
 
 				</div>
