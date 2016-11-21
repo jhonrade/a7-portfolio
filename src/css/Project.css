@@ -1,4 +1,5 @@
-* {
+
+/** {
     box-sizing: border-box;
 }
 .project a {
@@ -21,4 +22,8 @@
 
 .projectPage {
     text-align: center;
+}*/
+
+.projectCard {
+  margin: 15px;
 }
