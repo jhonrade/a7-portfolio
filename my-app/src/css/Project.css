@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+.project a {
+    text-decoration: none;
+    color:#777777;
+    font-style: italic;
+}
+
+.project a:hover {
+    color:black;
+}
+
+.project h3 {
+    font-weight: 150;
+}
+.project {
+    border-bottom:1px dashed black;
+    padding:50px;
+}
+
+.projectPage {
+    text-align: center;
+}
