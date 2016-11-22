@@ -6,8 +6,7 @@ import './css/Project.css';
 import $ from 'jquery';
 
 
-
-// ProjectPage component
+// Project Page Component
 var ProjectPage = React.createClass({
 	// Get initial state: "projects" as empty array
 	getInitialState(){
@@ -29,6 +28,7 @@ var ProjectPage = React.createClass({
 				<div>
 					<h2>INFO 343 Projects</h2>
 				</div>
+
 				<div>
 					{this.state.projects.map(function(project, i){
 						if (i < 4) {
@@ -37,11 +37,12 @@ var ProjectPage = React.createClass({
 								link={project.link}
 								assignment={project.assignment}
 								img={project.img}
+								description={project.description}
 							/>)
 						}
 					})}
-
 				</div>
+
 			</div>
 		);
 	}

@@ -1,24 +1,24 @@
+/*CSS for ContactPage*/
+
 .contactPage {
     align-items: center;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 /* Large screen */
 @media screen and (min-width:768px) {
   .contactPage {
       max-width: 30%;
-    }
+  }
 }
 
 
 .box {
   border: 1px solid #249DDB;
   padding: 15px;
-  margin-bottom: 30px;
-  margin-top: 30px;
   background-color: black;
   border-radius: 1em;
   text-align: center;
@@ -26,30 +26,46 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  font-family: Raleway, Calibri, Trebuchet, sans-serif;
+}
+
+.formBox {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Raleway, Calibri, Trebuchet, sans-serif;
   letter-spacing: 2px;
   font-weight: 100;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
 
 
 h1 {
   color: white;
   text-align: center;
   margin-top: 0px;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 #contactInfo h2 {
   font-size: 20px;
   color: grey;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
-
 #socialMedias a {
-  margin:20px;
+  margin-right: 8px;
+  margin-left: 8px;
   text-decoration: none;
   color: grey;
   max-width: 100%;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 #socialMedias a:hover {
@@ -60,14 +76,13 @@ h1 {
 
 
 
-
-
 /*Code from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form*/
 .button {
     padding-left: 90px;
 }
 button {
     margin-left: .5em;
+    margin-top: 5px;
 }
 textarea {
     vertical-align: top;
@@ -90,14 +105,4 @@ form {
     background-color: black;
     color: grey;
     align-items: center;
-}
-
-.formBox {
-  display: block;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Raleway, Calibri, Trebuchet, sans-serif;
-  letter-spacing: 2px;
-  font-weight: 100;
 }

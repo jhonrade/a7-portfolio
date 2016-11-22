@@ -1,7 +1,8 @@
+/*CSS for Project Component & ProjectPage*/
 
 .projectPage {
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     font-family: Raleway, Calibri, Trebuchet, sans-serif;
@@ -17,11 +18,11 @@
 
 .projectPage h2 {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 2px;
   font-weight: 100;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -41,7 +42,7 @@
 }
 
 .projectCard h2 {
-  font-size: 25px;
+  font-size: 28px;
   color: white;
   letter-spacing: 2px;
   font-weight: 100;
@@ -49,16 +50,24 @@
 }
 
 .projectCard h3 {
-  font-size: 15px;
+  font-size: 18px;
   color: grey;
   letter-spacing: 2px;
+  font-weight: 100;
   margin: 5px;
 }
 
 .projectCard img {
-  height: 300px;
+  height: auto;
   max-width: 90%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.projectCard p {
+  font-size: 13px;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .projectCard a {
@@ -66,6 +75,7 @@
     text-decoration:none;
     font-size: 15px;
     letter-spacing: 2px;
+    padding-bottom: 10px;
 }
 
 .projectCard a:hover {
