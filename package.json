@@ -2,7 +2,7 @@
   "name": "a7-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://students.washington.edu/jhonrade/info343/build",
+  "homepage": "http://students.washington.edu/jhonrade/info343/a7-portfolio/build",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
