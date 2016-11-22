@@ -7,7 +7,7 @@ This project acts as a online portfolio for me and my work in INFO 343. Viewers 
 
 **What is the URL of this project on your student web-server?**
 
-https://students.washington.edu/jhonrade/info343/a7-portfolio
+https://students.washington.edu/jhonrade/info343/a7-portfolio/build
 
 **Did you receive help from any other sources (classmates, etc.)? If so, please list who.**
 
