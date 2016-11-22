@@ -5,17 +5,15 @@ import './css/HomePage.css'
 var HomePage = React.createClass({
     render() {
         return(
-            <div className="home">
-              <div className="homeCard">
-
-                <h2>Welcome to my Online Portfolio!</h2>
-                <img src="./img/profile.jpg" />
-                <h1>Jillian Honrade</h1>
-                <h3>About Me</h3>
-                <p>ghjgjhghjbhbmjhhjvh</p>
-              </div>
+          <div className="homePage">
+            <div className="homeCard">
+              <h1>Welcome to my Online Portfolio!</h1>
+              <img src="./img/profile.jpg" />
+              <h2>About Me</h2>
+              <p>Hello I'm Jill. I am an Informatics undergraduate student.</p>
             </div>
-        )
+          </div>
+            )
     }
 });
 

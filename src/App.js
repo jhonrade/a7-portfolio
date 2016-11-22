@@ -10,10 +10,11 @@ var App = React.createClass({
 		return (
 				<div className="App">
 					<div className = "navbar">
+						<h1>Jillian Honrade</h1>
 						<Link className="link" activeClassName='active' to="/"><i className="fa fa-home"></i></Link>
 						<Link className="link" activeClassName='active' to="/page-1">Projects</Link>
 						<Link className="link" activeClassName='active' to="/page-2">Contact</Link>
-					</div>
+				</div>
 					<div className="children">
 						{this.props.children}
 					</div>

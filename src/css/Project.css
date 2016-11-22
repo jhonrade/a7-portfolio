@@ -1,41 +1,73 @@
+
 .projectPage {
-    justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin-left:auto;
-    margin-right:auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Raleway, Calibri, Trebuchet, sans-serif;
+    margin-bottom: 80px;
+}
+
+/* Large screen */
+@media screen and (min-width:768px) {
+  .projectPage {
+      max-width: 70%;
+    }
+}
+
+.projectPage h2 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
 .projectCard {
-  border: 1px solid black;
-  margin: 30px;
+  margin-bottom: 30px;
   padding: 10px;
   width: 100%;
   text-align: center;
   display: absolute;
   right: auto;
   left: auto;
-  box-shadow: 5px 5px 2px lightgrey;
+  color: grey;
+  background-color: black;
+  font-family: Raleway, Calibri, Trebuchet, sans-serif;
+  border: 1px solid #249DDB;
+  border-radius: 1em;
+}
 
+.projectCard h2 {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin: 5px;
 }
 
 .projectCard h3 {
-  font-size:20px;
+  font-size: 15px;
+  color: grey;
+  letter-spacing: 2px;
+  margin: 5px;
 }
 
 .projectCard img {
-  height: 400px;
+  height: 300px;
   max-width: 90%;
-  border: 3px solid black;
-
+  margin-bottom: 15px;
 }
 
 .projectCard a {
-    color:black;
+    color: white;
     text-decoration:none;
-    margin-right: 50px;
-    opacity:.5;
     font-size: 15px;
+    letter-spacing: 2px;
+}
 
+.projectCard a:hover {
+    opacity: .5;
 }

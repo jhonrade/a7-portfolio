@@ -1,76 +1,103 @@
+.contactPage {
+    align-items: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
 
-.contactPage h2 {
-  font-size: 60px;
+/* Large screen */
+@media screen and (min-width:768px) {
+  .contactPage {
+      max-width: 30%;
+    }
 }
 
 
-/*Code from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form*/
-
-
-.button {
-    /* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
-}
-button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: .5em;
-}
-
-textarea {
-    /* To properly align multiline text fields with their labels */
-    vertical-align: top;
-
-    /* To give enough room to type some text */
-    height: 5em;
-
-    /* To allow users to resize any textarea vertically
-       It does not work on all browsers */
-    resize: vertical;
-}
-
-input:focus, textarea:focus {
-    /* To give a little highlight on active elements */
-    border-color: #000;
-}
-
-input, textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-
-    /* To give the same size to all text field */
-    width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
-}
-
-form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* To see the outline of the form */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+.box {
+  border: 1px solid #249DDB;
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: black;
+  border-radius: 1em;
+  text-align: center;
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Raleway, Calibri, Trebuchet, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 
 
-
-/*SOCIAL MEDIA*/
-
-.socialMedias a {
-  margin:20px;
-  text-decoration: none;
-  color: black;
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
 }
 
-.socialMedias a:hover {
+#contactInfo h2 {
+  font-size: 20px;
+  color: grey;
+}
+
+
+#socialMedias a {
   margin:20px;
   text-decoration: none;
   color: grey;
+  max-width: 100%;
+}
+
+#socialMedias a:hover {
+  margin:20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+/*Code from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form*/
+.button {
+    padding-left: 90px;
+}
+button {
+    margin-left: .5em;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+input, textarea {
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid white;
+}
+form {
+    padding: 1em;
+    border: 1px solid #249DDB;
+    border-radius: 1em;
+    max-width: 100%;
+    display: inline-block;
+    background-color: black;
+    color: grey;
+    align-items: center;
+}
+
+.formBox {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Raleway, Calibri, Trebuchet, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
