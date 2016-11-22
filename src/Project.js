@@ -7,7 +7,7 @@ import React from 'react';
 //import { Button, Card, CardTitle, Row, Col } from 'material-ui';
 //import {Card, Col}  from '../node_modules/material-ui/Card/Card.js';
 
-import {Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl';
+//import {Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl';
 // //import Card  from '../node_modules/react-mdl/lib/Card';
 // import Button from '../node_modules/react-mdl/lib/Button';
 // import { Card, CardText, CardActions } from '../node_modules/react-mdl/lib/Card';
@@ -25,9 +25,9 @@ var Project = React.createClass({
             //regular
             <div className="projectCard">
               <h3>{this.props.title}</h3>
-              <p>{this.props.description}</p>
-              <img src={this.props.img} />
-              <a target="_blank" href={this.props.link}> Check Out More!</a>
+              <p>{this.props.assignment}</p>
+              <img src={this.props.img} /><br/>
+              <a target="_blank" href={this.props.link}> Check out the webpage!</a>
             </div>
 
 

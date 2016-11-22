@@ -35,7 +35,7 @@ var ProjectPage = React.createClass({
 							return (<Project key={'project-' + i}
 								title={project.title}
 								link={project.link}
-								description={project.description}
+								assignment={project.assignment}
 								img={project.img}
 							/>)
 						}

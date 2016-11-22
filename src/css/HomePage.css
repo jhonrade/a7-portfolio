@@ -1,5 +1,13 @@
 .home {
   text-align: center;
+  border: 1px solid black;
+  width:80%;
+}
+
+.homeCard {
+  display: absolute;
+  right: auto;
+  left: auto;
 }
 
 h1 {

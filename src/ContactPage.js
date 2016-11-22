@@ -10,7 +10,7 @@ var ContactPage = React.createClass({
 		return (
 			<div className="contactPage">
 				<div>
-					<h2>Contact</h2>
+					<h2>Send me an email!</h2>
 				</div>
 
 				<form action="mailto:jhonrade@uw.edu" method="post">
@@ -34,7 +34,7 @@ var ContactPage = React.createClass({
 
 				<div className="socialMedias">
 					<div class="elements" id="icons">
-						<h3>Social Media</h3>
+						<h3>Find me on Social Media!</h3>
 						<a role="button" href="mailto:jhonrade@uw.edu">EMAIL</a>
 						<a role="button" href="https://twitter.com/justt-jilll">TWITTER</a>
 						<a role="button" href="https://www.facebook.com/jillian.honrade">FACEBOOK</a>

@@ -1,41 +1,41 @@
-
-/** {
-    box-sizing: border-box;
-}
-.project a {
-    text-decoration: none;
-    color:#777777;
-    font-style: italic;
-}
-
-.project a:hover {
-    color:black;
-}
-
-.project h3 {
-    font-weight: 150;
-}
-.project {
-    border-bottom:1px dashed black;
-    padding:50px;
-}
-
-*/
-
 .projectPage {
     justify-content: space-between;
+    align-items: center;
     width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
+
 .projectCard {
-  border: 1px dashed black;
-  margin: 15px;
+  border: 1px solid black;
+  margin: 30px;
   padding: 10px;
   width: 100%;
-  display: inline-block;
   text-align: center;
+  display: absolute;
+  right: auto;
+  left: auto;
+  box-shadow: 5px 5px 2px lightgrey;
+
 }
 
 .projectCard h3 {
   font-size:20px;
+}
+
+.projectCard img {
+  height: 400px;
+  max-width: 90%;
+  border: 3px solid black;
+
+}
+
+.projectCard a {
+    color:black;
+    text-decoration:none;
+    margin-right: 50px;
+    opacity:.5;
+    font-size: 15px;
+
 }
